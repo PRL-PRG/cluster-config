@@ -1,0 +1,34 @@
+---
+
+- name: "Display"
+  debug: var=item
+  when: users is defined and item.in_docker|default(false)
+  with_items:
+    - "{{ users }}"
+
+- name: add docker key
+  apt_key:
+    url: https://download.docker.com/linux/ubuntu/gpg
+    state: present
+
+- name: add docker repository
+  apt_repository:
+    repo: deb https://download.docker.com/linux/ubuntu artful stable
+    state: present
+
+- name: install docker
+  apt:
+    name: docker-ce
+    update_cache: yes
+  notify:
+    - restart docker
+    - test docker
+
+- name: add users to docker group
+  when: users is defined and item.in_docker|default(false)
+  user:
+    name: "{{ item.username }}"
+    groups: docker
+    append: yes
+  with_items:
+    - "{{ users }}"

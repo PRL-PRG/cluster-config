@@ -13,11 +13,6 @@
     name: "{{ host_packages }}"
     update_cache: yes
 
-- name: create wheel group
-  group:
-    name: wheel
-    state: present
-
 - name: create users
   when: users is defined
   user:
@@ -28,11 +23,11 @@
   with_items:
     - "{{ users }}"
 
-- name: add user to groups
-  when: item.groups is defined
+- name: add user to adm groups
+  when: users is defined and item.admin|default(false)
   user:
     name: "{{ item.username }}"
-    groups: "{{ item.groups }}"
+    groups: adm
   with_items:
     - "{{ users }}"
 
@@ -45,8 +40,18 @@
   with_items:
     - "{{ users }}"
 
-- lineinfile:
+- name: add passwordless sudo
+  lineinfile:
     path: /etc/sudoers
     state: present
-    regexp: '^%wheel\s'
-    line: '%wheel ALL=(ALL) NOPASSWD: ALL'
+    regexp: '^%adm\s'
+    line: '%adm ALL=(ALL) NOPASSWD: ALL'
+
+- name: allow SSH agent forwarding
+  lineinfile:
+    path: /etc/ssh/sshd_config
+    state: present
+    regexp: '^#AllowAgentForwarding\s'
+    line: 'AllowAgentForwarding yes'
+  notify:
+    - restart sshd

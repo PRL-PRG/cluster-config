@@ -1,0 +1,16 @@
+group_packages:
+  - build-essential
+  - curl
+  - emacs-nox
+  - fasd
+  - git
+  - mc
+  - parallel
+  - r-base
+  - r-base-dev
+  - silversearcher-ag
+  - texlive-full
+  - tmux
+  - vim
+  - wget
+  - zsh

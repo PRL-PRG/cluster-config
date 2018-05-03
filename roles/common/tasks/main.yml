@@ -1,0 +1,52 @@
+---
+
+- name: install packages (group)
+  when: group_packages is defined
+  apt:
+    state: present
+    name: "{{ group_packages }}"
+
+- name: install packages (host)
+  when: host_packages is defined
+  apt:
+    state: present
+    name: "{{ host_packages }}"
+    update_cache: yes
+
+- name: create wheel group
+  group:
+    name: wheel
+    state: present
+
+- name: create users
+  when: users is defined
+  user:
+    name: "{{ item.username }}"
+    state: present
+    uid: "{{ item.uid }}"
+    shell: "{{ item.shell | default('/bin/bash') }}"
+  with_items:
+    - "{{ users }}"
+
+- name: add user to groups
+  when: item.groups is defined
+  user:
+    name: "{{ item.username }}"
+    groups: "{{ item.groups }}"
+  with_items:
+    - "{{ users }}"
+
+- name: install keys
+  when: users is defined
+  authorized_key:
+    user: "{{ item.username }}"
+    state: present
+    key: "{{ item.ssh_key }}"
+  with_items:
+    - "{{ users }}"
+
+- lineinfile:
+    path: /etc/sudoers
+    state: present
+    regexp: '^%wheel\s'
+    line: '%wheel ALL=(ALL) NOPASSWD: ALL'

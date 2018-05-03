@@ -1,0 +1,7 @@
+users:
+  - username: krikava
+    uid: 1001
+    name: Filip Krikava
+    groups: wheel
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzwdcb4rxcvRppWy3FoGhmuaaMdYyP82bBsQJaDy5Yet1YnuD7j+SwGvovx4aJvjWtF/zY/IxmXT5CIjaNq28P47Ul2yYkLd2MZHO8CuxybakCaJ2B/1wliVuHBJQd5tV+pDUyDbW4gQEk/CI1PN0EJVrq2xfnvon6hLRNxBLG/IsljsBp+Ezuh+2QVkQ54jHpH33yKbEB13wiOEFvHEDRwnPvb1vIv1Hp2Q7r0J+uJi7GmW30sCrzRB8VOgHl1PvPaPzyoFAUFLTsh2OY4S6OjCgMZp5h+cbUiMBZLz/Gex18Wd9JjTpbHxfTwlU+CaABwJdutg1JtnYaUZBeXlI1w== krikava@filip-krikavas-macbook-pro.local"
+    shell: /bin/zsh

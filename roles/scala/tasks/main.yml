@@ -1,0 +1,12 @@
+---
+
+- name: create scala group
+  group: 
+    name: scala
+    state: present
+
+- name: install sbt (scala)
+  when: scala is defined
+  apt:
+    deb: https://dl.bintray.com/sbt/debian/sbt-1.1.4.deb
+    state: present

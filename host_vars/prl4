@@ -9,5 +9,5 @@ users:
     uid: 1002
     name: Borja Lorente
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCcWVHY83SYDfmaINIkGJuxyaee0r3J9/Y8FRDEO+WbnMcCl4Ut7IZgJucTdDJ8hWUMHMKwoQUHfKejc+GZ4WofNH8wN/O9hhQD9PcdZHHXScvDZBjSCyMpEjmykkN5bTAJyFOstNNcOAatp2LigOz55Sc18GogmlUZFxZW3oTXhX4m7FdpsO5ebHg88vOYgv7aeJ7HIaAM81DU1sR5hG1oS7VxmfTbaiDc3LKYisvbLFZ+wLXBYRwn/99kkR8eJ64siMqPVNT08AOs03uoC3rg/qyONZ0EDilADm/MS1piJHJlyOqw8mf7sCGvIdhXKow86+vZAeiRL8T2gfSRyJr3 lorenbor@fit.cvut.cz"
-    groups: scala
+    is_scala: yes
     shell: /bin/bash

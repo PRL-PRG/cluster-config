@@ -17,7 +17,7 @@ ansible-playbook -i hosts site.yml
 │   ├── prl3
 │   └── prl4
 ├── roles
-│   └── common           - packages, users, sudo, ... 
+│   └── common            - packages, users, sudo, ... 
 │       └── tasks
 │           └── main.yml
 └── site.yml

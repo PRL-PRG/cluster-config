@@ -28,6 +28,7 @@
   user:
     name: "{{ item.username }}"
     groups: adm
+    append: yes
   with_items:
     - "{{ users }}"
 

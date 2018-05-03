@@ -5,7 +5,7 @@
     - common
     - docker
 
-- hosts: prl4
+- hosts: scala
   remote_user: root
   roles:
     - scala

@@ -5,6 +5,14 @@
     name: scala
     state: present
 
+- name: add user to scala
+  when: scala is defined
+  user:
+    name: "{{ item.username }}"
+    groups: "{{ item.groups }} scala"
+  with_items:
+    - "{{ users|attr('is_scala') }}"
+
 - name: install sbt (scala)
   when: scala is defined
   apt:

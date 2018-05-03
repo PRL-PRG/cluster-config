@@ -17,4 +17,5 @@
     path: /var/lib/scala
     group: scala
     recurse: yes
+    mode: "g+rwx"
     stat: directory

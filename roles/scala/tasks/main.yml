@@ -10,3 +10,11 @@
   apt:
     deb: https://dl.bintray.com/sbt/debian/sbt-1.1.4.deb
     state: present
+
+- name: create /var/lib/scala (scala)
+  when: scala is defined
+  file:
+    path: /var/lib/scala
+    group: scala
+    recurse: yes
+    stat: directory

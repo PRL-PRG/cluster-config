@@ -4,4 +4,8 @@
   roles:
     - common
     - docker
+
+- hosts: prl4
+  remote_user: root
+  roles:
     - scala

@@ -17,3 +17,4 @@ group_packages:
   - byobu
   - htop
   - rsync
+  - cmake

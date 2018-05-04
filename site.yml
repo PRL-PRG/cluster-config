@@ -4,3 +4,8 @@
   roles:
     - common
     - docker
+
+- hosts: scala
+  remote_user: root
+  roles:
+    - scala

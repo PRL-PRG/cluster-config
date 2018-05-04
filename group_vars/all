@@ -14,3 +14,7 @@ group_packages:
   - vim
   - wget
   - zsh
+  - byobu
+  - htop
+  - rsync
+  - cmake

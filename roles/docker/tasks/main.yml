@@ -1,11 +1,5 @@
 ---
 
-- name: "Display"
-  debug: var=item
-  when: users is defined and item.in_docker|default(false)
-  with_items:
-    - "{{ users }}"
-
 - name: add docker key
   apt_key:
     url: https://download.docker.com/linux/ubuntu/gpg

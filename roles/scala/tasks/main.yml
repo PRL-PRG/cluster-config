@@ -9,8 +9,7 @@
   file:
     path: /var/lib/scala
     group: scala
-    recurse: yes
-    mode: "g+rwx"
+    mode: "g+ws"
     state: directory
 
 - name: add oracle repo (scala)

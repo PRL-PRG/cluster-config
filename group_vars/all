@@ -16,3 +16,4 @@ group_packages:
   - zsh
   - byobu
   - htop
+  - rsync

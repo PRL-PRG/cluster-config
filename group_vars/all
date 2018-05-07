@@ -18,3 +18,4 @@ group_packages:
   - htop
   - rsync
   - cmake
+  - ant

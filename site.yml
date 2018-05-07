@@ -9,3 +9,4 @@
   remote_user: root
   roles:
     - scala
+    - mysql

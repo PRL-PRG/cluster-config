@@ -18,3 +18,5 @@ group_packages:
   - htop
   - rsync
   - cmake
+  - ant
+  - libcurl4-openssl-dev

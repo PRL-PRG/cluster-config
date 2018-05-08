@@ -8,6 +8,7 @@ group_packages:
   - parallel
   - r-base
   - r-base-dev
+  - ranger
   - silversearcher-ag
   - texlive-full
   - tmux

@@ -13,3 +13,10 @@ users:
     admin: yes
     in_scala: yes
     shell: /bin/bash
+  - username: lukegeeson
+    uid: 1003
+    name: Luke Geeson
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6DeUo2x7UqhbdUmewhxe0Yl4GFakC9xh9cW2c9o2JX3LdnQw6qbRjokx2GOrki0ZdOFhwpB395lvkpjd5OYOCS0vTmkVE+rJ74nIjw3yHFxLcaSj621VHhYujdIdExpKNOmOID1DIVaBQprIbkjqC7/ybmBXNRp9RMV4TKJkmyaniVqPEyojpoxIwvAV8mcuQve/5bHoqLwLaqcx6m6PgV/EOkjOMlEk/NCxxCmXcYDwr/8mmYJ/8gu5EO/jw5AiukLWONy1xyFjqJ1CJinkQZXBA47psoyrYSgVCmu0ix1RtPb/6NyVNa6kzNQ40IlnJZpW/sCYud86xGoXyNrt/ home@Lukes-MBP"
+    admin: yes
+    in_scala: yes
+    shell: /bin/bash

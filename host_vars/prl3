@@ -6,3 +6,10 @@ users:
     shell: /bin/zsh
     admin: yes
     in_docker: yes
+  - username: aviral
+    uid: 1729
+    name: Aviral Goel
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDPYza1tkjhY5UylXzkOeXVNFnE3Paupx8KSoCIHBevuERmj9uk88pKoZ0dn0JBxpasdd3f8s0ywCLRmhcHpOmzZfrSmvHHyTj9vWOPHAT6SQl7kmAdaR455qfbroAMhouuG6Vtk838snvGy8LeDu87jA8Q3trbIXPlA/RgadIjkR489m+T9gwtMJ369Kc637nZyOdydNaaXWl1gE8WOZD98mtMWY+u5DHeEwm/YwxFbvLSHst7LTuHIbMNG4v3BZCaIOajYjOQrZgJ8SxQ4s3ksngJ6QYrRck4z87aZXjHL5MystbVBRIl6M329cc1V+OztmszTB2tFywaz4vR4kmgsxbvi2Kq6Lf4UNLQriMuniBdVU/s+eaF+K86CGGFB9mlfb+XXtoqSHHhqeLu9K6djMWVP/o6yLTb3ui0s51pDUM0uwqWNDtUbvSQZKf/2NzSUYRZvvY9mV+34KfsBmzf1s/QUBhFQuSlm5B0pZ34OfYgp2Lf/Dc1k2wlNUtnBxF+D6GFyOhBDYNf/c98Zl/f+vXKocEdpG0WVJ6c8+iHU/N0jGsFBNXh2P2KqcLYJpmE2z5rw0sCU+9pzE69MM3KDTo7y4U/on4jjiAgHtcQZD1fFDyVhCuyv3Ke5jKlB6UCixTr7rfksqTSVjUMp7pFsYxpVIQb3pMS9+tgGaiCdw== goel.aviral@gmail.com"
+    shell: /bin/zsh
+    admin: yes
+    in_docker: yes

@@ -5,12 +5,28 @@
     name: scala
     state: present
 
-- name: create /var/lib/scala (scala)
+- name: create /var/lib/scala.bak (scala)
   file:
-    path: /var/lib/scala
+    path: /var/lib/scala.bak
     group: scala
     mode: "g+ws"
     state: directory
+
+- name: create /mnt/nvme0/scala (scala)
+  file:
+    path: /mnt/nvme0/scala
+    group: scala
+    mode: "g+ws"
+    recurse: yes
+    follow: no
+    state: directory
+
+- name: create symlink /var/lib/scala -> /mnt/nvme0/scala
+  file:
+    src: "/mnt/nvme0/scala"
+    dest: "/var/lib/scala"
+    state: link
+    mode: "g+ws"
 
 - name: add oracle repo (scala)
   apt_repository:

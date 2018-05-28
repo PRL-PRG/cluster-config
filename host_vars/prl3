@@ -13,3 +13,10 @@ users:
     shell: /bin/zsh
     admin: yes
     in_docker: yes
+  - username: chakshugoyal97
+    uid: 1114
+    name: Chakshu Goyal
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAyN8IK8q9e5ur0N+jdlSXb4SJiHbsQK6M6+fCFXc+D0EmwYaowIFNORPsQJQjXukqWR13oaKY6jlrQWebf1JFBAmo5Ur9JPi541RaJNIhTPMxGGP+17iyZ3ySomnnQET4uu3hnpBiMV0GLqfN+zSEJkLZK0zat4UO2iSE27IA9mJyTaeMiVfmpjG4RtZxOqX/xAEtr2ZyKwHStRT7KEQU7PaaN/f5BVsE/5lZ6jrzDp9fzBJLI6neWN8NIiRM9wGiKTZgAm6HSuP9WU8mzWQky7iwENE+s8JfdcLOCbAX8ytP877KE3luOTmPhOdGiZFosEqaPqInuc4BYyAu5s8L chakshugoyal97@gmail.com"
+    shell: /bin/bash
+    admin: yes
+    in_docker: yes

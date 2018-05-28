@@ -5,6 +5,11 @@
     - common
     - docker
 
+- hosts: r
+  remote_user: root
+  roles:
+    - r
+
 - hosts: scala
   remote_user: root
   roles:

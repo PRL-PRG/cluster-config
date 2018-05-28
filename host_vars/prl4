@@ -4,8 +4,9 @@ users:
     name: Filip Krikava
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzwdcb4rxcvRppWy3FoGhmuaaMdYyP82bBsQJaDy5Yet1YnuD7j+SwGvovx4aJvjWtF/zY/IxmXT5CIjaNq28P47Ul2yYkLd2MZHO8CuxybakCaJ2B/1wliVuHBJQd5tV+pDUyDbW4gQEk/CI1PN0EJVrq2xfnvon6hLRNxBLG/IsljsBp+Ezuh+2QVkQ54jHpH33yKbEB13wiOEFvHEDRwnPvb1vIv1Hp2Q7r0J+uJi7GmW30sCrzRB8VOgHl1PvPaPzyoFAUFLTsh2OY4S6OjCgMZp5h+cbUiMBZLz/Gex18Wd9JjTpbHxfTwlU+CaABwJdutg1JtnYaUZBeXlI1w== krikava@filip-krikavas-macbook-pro.local"
     shell: /bin/zsh
-    in_scala: yes
     admin: yes
+    in_docker: yes
+    in_scala: yes
   - username: blorente
     uid: 1002
     name: Borja Lorente
@@ -19,4 +20,4 @@ users:
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6DeUo2x7UqhbdUmewhxe0Yl4GFakC9xh9cW2c9o2JX3LdnQw6qbRjokx2GOrki0ZdOFhwpB395lvkpjd5OYOCS0vTmkVE+rJ74nIjw3yHFxLcaSj621VHhYujdIdExpKNOmOID1DIVaBQprIbkjqC7/ybmBXNRp9RMV4TKJkmyaniVqPEyojpoxIwvAV8mcuQve/5bHoqLwLaqcx6m6PgV/EOkjOMlEk/NCxxCmXcYDwr/8mmYJ/8gu5EO/jw5AiukLWONy1xyFjqJ1CJinkQZXBA47psoyrYSgVCmu0ix1RtPb/6NyVNa6kzNQ40IlnJZpW/sCYud86xGoXyNrt/ home@Lukes-MBP"
     admin: yes
     in_scala: yes
-    shell: /bin/bash
+    shell: /bin/zsh

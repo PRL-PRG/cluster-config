@@ -6,6 +6,7 @@ users:
     shell: /bin/zsh
     admin: yes
     in_docker: yes
+    in_r: yes
   - username: aviral
     uid: 1729
     name: Aviral Goel
@@ -13,6 +14,7 @@ users:
     shell: /bin/zsh
     admin: yes
     in_docker: yes
+    in_r: yes
   - username: chakshugoyal97
     uid: 1114
     name: Chakshu Goyal
@@ -20,3 +22,4 @@ users:
     shell: /bin/bash
     admin: yes
     in_docker: yes
+    in_r: yes

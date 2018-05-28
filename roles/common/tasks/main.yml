@@ -48,11 +48,14 @@
     regexp: '^%adm\s'
     line: '%adm ALL=(ALL) NOPASSWD: ALL'
 
-- name: allow SSH agent forwarding
+- name: setup sshd_config
   lineinfile:
     path: /etc/ssh/sshd_config
     state: present
-    regexp: '^#AllowAgentForwarding\s'
-    line: 'AllowAgentForwarding yes'
+    regexp: "{{ item.regexp }}"
+    line: "{{ item.line }}"
+  loop:
+    - { regexp: '^AllowAgentForwarding', line: 'AllowAgentForwarding yes' }
+    - { regexp: '^X11Forwarding', line: 'X11Forwarding yes' }
   notify:
     - restart sshd

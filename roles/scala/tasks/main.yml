@@ -17,8 +17,6 @@
     path: /mnt/nvme0/scala
     group: scala
     mode: "g+ws"
-    recurse: yes
-    follow: no
     state: directory
 
 - name: create symlink /var/lib/scala -> /mnt/nvme0/scala

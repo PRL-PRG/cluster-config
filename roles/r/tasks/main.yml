@@ -14,8 +14,22 @@
   with_items:
     - "{{ users }}"
 
+# - name: add docker key
+#   apt_key:
+#     keyserver: keyserver.ubuntu.com
+#     id: E084DAB9
+
+#- name: add R repository
+#  apt_repository:
+#    repo: deb http://mirrors.nic.cz/R/bin/linux/ubuntu/ artful/
+#    state: present
+
+- apt_repository:
+    repo: ppa:marutter/rrutter3.5
+
 - name: install R native dependencies
   apt:
+    update_cache: yes
     state: present
     name:
       - build-essential
@@ -44,3 +58,4 @@
   loop:
     - tidyverse
     - covr
+    - devtools

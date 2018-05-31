@@ -5,7 +5,6 @@ group_packages:
   - fasd
   - git
   - mc
-  - parallel
   - r-base
   - r-base-dev
   - ranger

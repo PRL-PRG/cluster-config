@@ -4,6 +4,7 @@
   roles:
     - common
     - docker
+    - r-base
 
 - hosts: r
   remote_user: root

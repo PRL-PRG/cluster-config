@@ -5,13 +5,6 @@
     name: scala
     state: present
 
-- name: create /var/lib/scala.bak (scala)
-  file:
-    path: /var/lib/scala.bak
-    group: scala
-    mode: "g+ws"
-    state: directory
-
 - name: create /mnt/nvme0/scala (scala)
   file:
     path: /mnt/nvme0/scala
@@ -26,10 +19,25 @@
     state: link
     mode: "g+ws"
 
+- name: create /mnt/nvme1/scala-oopsla18 (scala)
+  file:
+    path: /mnt/nvme1/scala-oopsla18
+    group: scala
+    mode: "g+ws"
+    state: directory
+
+- name: create symlink /var/lib/scala-oopsla18 -> /mnt/nvme1/scala-oopsla18
+  file:
+    src: "/mnt/nvme1/scala-oopsla18"
+    dest: "/var/lib/scala-oopsla18"
+    state: link
+    mode: "g+ws"
+
 - name: add oracle repo (scala)
   apt_repository:
     repo: ppa:webupd8team/java
     state: present
+
 - name: debian | set license as accepted
   debconf: name='oracle-java8-installer' question='shared/accepted-oracle-license-v1-1' value='true' vtype='select'
   become: yes

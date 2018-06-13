@@ -13,6 +13,7 @@ users:
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCcWVHY83SYDfmaINIkGJuxyaee0r3J9/Y8FRDEO+WbnMcCl4Ut7IZgJucTdDJ8hWUMHMKwoQUHfKejc+GZ4WofNH8wN/O9hhQD9PcdZHHXScvDZBjSCyMpEjmykkN5bTAJyFOstNNcOAatp2LigOz55Sc18GogmlUZFxZW3oTXhX4m7FdpsO5ebHg88vOYgv7aeJ7HIaAM81DU1sR5hG1oS7VxmfTbaiDc3LKYisvbLFZ+wLXBYRwn/99kkR8eJ64siMqPVNT08AOs03uoC3rg/qyONZ0EDilADm/MS1piJHJlyOqw8mf7sCGvIdhXKow86+vZAeiRL8T2gfSRyJr3 lorenbor@fit.cvut.cz"
     admin: yes
     in_scala: yes
+    in_docker: yes
     shell: /bin/bash
   - username: lukegeeson
     uid: 1003
@@ -20,4 +21,5 @@ users:
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6DeUo2x7UqhbdUmewhxe0Yl4GFakC9xh9cW2c9o2JX3LdnQw6qbRjokx2GOrki0ZdOFhwpB395lvkpjd5OYOCS0vTmkVE+rJ74nIjw3yHFxLcaSj621VHhYujdIdExpKNOmOID1DIVaBQprIbkjqC7/ybmBXNRp9RMV4TKJkmyaniVqPEyojpoxIwvAV8mcuQve/5bHoqLwLaqcx6m6PgV/EOkjOMlEk/NCxxCmXcYDwr/8mmYJ/8gu5EO/jw5AiukLWONy1xyFjqJ1CJinkQZXBA47psoyrYSgVCmu0ix1RtPb/6NyVNa6kzNQ40IlnJZpW/sCYud86xGoXyNrt/ home@Lukes-MBP"
     admin: yes
     in_scala: yes
+    in_docker: yes
     shell: /bin/zsh

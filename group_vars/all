@@ -11,6 +11,7 @@ group_packages:
   - git
   - htop
   - mc
+  - mosh
   - ncdu
   - ranger
   - rsync

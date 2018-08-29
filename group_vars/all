@@ -1,21 +1,22 @@
 group_packages:
+  - aspell
+  - aspell-en
   - build-essential
+  - byobu
+  - cmake
+  - cloc
   - curl
   - emacs-nox
   - fasd
   - git
+  - htop
   - mc
+  - ncdu
   - ranger
+  - rsync
   - silversearcher-ag
   - texlive-full
   - tmux
   - vim
   - wget
   - zsh
-  - byobu
-  - htop
-  - rsync
-  - cmake
-  - aspell
-  - aspell-en
-  - cloc

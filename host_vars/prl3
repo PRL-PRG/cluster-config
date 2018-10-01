@@ -31,4 +31,12 @@ users:
     admin: yes
     in_docker: yes
     in_r: yes
+  - username: alexi
+    uid: 1115
+    name: Alexi Turcotte
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Y9KDoHlMBllYh62c6XuO10263PtwptN+E2arlmwyVX2iBU/3h7JAYalP0eZCLNIvLfWbtUiD2uS9iy8RylJ6TQNCOjDltRllgiwBQ1ARwa6Nw8UnFOok87GLjrOJeCBRd80LhuM2uWiZMaGnrVdFxhjadiRnwLIdmVryI8avsEpUf65ir5SBr8c/HDCnj85IuWy0aMDB/6zy+qaSrsQRlANu/sgGDhsGghmqDPzCt6d0GHuK/zlVht6dkdwsCSSchFfxiHIU31cmQyZPbkQ6CZpGiOnalR7tW9GRdakyVeIr2HC/XXymuoOntKgoBzCnak17iqNkFyh89eN8gXuN Alexi@Caledfwlch-20.local"
+    shell: /bin/bash
+    admin: yes
+    in_docker: yes
+    in_r: yes
   

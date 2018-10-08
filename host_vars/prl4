@@ -31,3 +31,11 @@ users:
     in_scala: yes
     in_docker: yes
     shell: /bin/bash
+  - username: heather
+    uid: 1005
+    name: Heather Miller
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCgEzCw1a14pPMqgK5U0aPIHKB/thnAep5VXMmdrqpUznUoNCsfyRrc9OMch/1usTy4OWsHBHGTzDSUGKrh8BUPJqlHlT8ypV/oxfGJ58fjzReCPSO/hYt0HTJR19CMCoUfk5IRC1Lq6DHdZ/tbGp6oyRMdp5qR9jNnf72u+UJkkPp6pFxGF7VdUii3F13bkg595mx3LTRUU6Cd6g6tiSFlTxiIrBYWmNXeg7gC/UgnIK3N7rlu2SprHD8e6oaPfeyIKbExyP9cSwuDfky6SXKixO6Kk8vRJqo5Q/BcjdQwd7CyuPj4IDi19LGcZ6x6NGwx0KKQ7K91Jg8kBPUEDCFlhMFPi7Y8b0D+il1ph8ED+87URV8KcYv+Fr72fn0BOaDvzUv8NV8F3BRh8XHoaL0oAXI1n4UZAfRfjs4mtQHR8ixtzJpZcMgFO+wj3nyVSsb2VCx/vKJqeP44+VvcJlMgFVsXfbmb5/s53axvoUwsj43Gecb6hXurywFVXg7e76DbJeA5guEbdmXDtKR9HZwYC/IhTfSwBvqS946beaG/eyl+9aVca/xWqXFGybs2aVlbt9MrN+Ae0CNTu0fpy9as/OEEmhGE/nVdog0qOIAA+RU+9n//vwCjbi0T63tbNVeHbDZtVJG34Xe+2O6jgIq/yOqxOokqW0QWcsqtVQXkVw== heather.miller@cs.cmu.edu"
+    admin: yes
+    in_scala: yes
+    in_docker: yes
+    shell: /bin/bash

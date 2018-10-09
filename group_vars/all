@@ -13,6 +13,7 @@ group_packages:
   - mc
   - mosh
   - ncdu
+  - pandoc
   - ranger
   - rsync
   - silversearcher-ag

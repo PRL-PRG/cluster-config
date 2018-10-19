@@ -5,6 +5,8 @@ group_packages:
   - byobu
   - cmake
   - cloc
+  - csvkit
+  - csvkit-doc
   - curl
   - emacs-nox
   - fasd

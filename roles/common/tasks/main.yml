@@ -1,5 +1,14 @@
 ---
 
+- name: set ubuntu mirror
+  when: ubuntu_mirror is defined
+  replace:
+    path: /etc/apt/sources.list
+    regexp: "http://archive.ubuntu.com/ubuntu"
+    replace: "{{ ubuntu_mirror }}"
+  notify:
+    - update apt cache
+
 - name: install packages (group)
   when: group_packages is defined
   apt:

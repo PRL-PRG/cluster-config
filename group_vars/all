@@ -1,3 +1,4 @@
+ubuntu_mirror: http://cz.archive.ubuntu.com/ubuntu
 group_packages:
   - aspell
   - aspell-en

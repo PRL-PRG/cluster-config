@@ -4,6 +4,7 @@
   roles:
     - common
     - docker
+    - emacs
     - r-base
 
 - hosts: r

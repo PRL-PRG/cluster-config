@@ -9,7 +9,6 @@ group_packages:
   - csvkit
   - csvkit-doc
   - curl
-  - emacs-nox
   - fasd
   - git
   - htop

@@ -15,14 +15,14 @@ users:
     in_scala: yes
     in_docker: yes
     shell: /bin/bash
-  - username: lukegeeson
+  - username: jan
     uid: 1003
-    name: Luke Geeson
-    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6DeUo2x7UqhbdUmewhxe0Yl4GFakC9xh9cW2c9o2JX3LdnQw6qbRjokx2GOrki0ZdOFhwpB395lvkpjd5OYOCS0vTmkVE+rJ74nIjw3yHFxLcaSj621VHhYujdIdExpKNOmOID1DIVaBQprIbkjqC7/ybmBXNRp9RMV4TKJkmyaniVqPEyojpoxIwvAV8mcuQve/5bHoqLwLaqcx6m6PgV/EOkjOMlEk/NCxxCmXcYDwr/8mmYJ/8gu5EO/jw5AiukLWONy1xyFjqJ1CJinkQZXBA47psoyrYSgVCmu0ix1RtPb/6NyVNa6kzNQ40IlnJZpW/sCYud86xGoXyNrt/ home@Lukes-MBP"
+    name: Jan Vitek
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCaLPK+wO6G3wOLQkJZthRlKM6sI+39XeR2eh6vf0yJJIbeadfU4gxdBq1hhNmLblydKpl/N7T1kCPmDFziC+FODU4nxeBVYIL9HISLFYG9a18URyPCB6mSg4A8/erHFs+UL9OmDYpj1azOnEmsS9bkcLjCB0IIIax3bBmKe1Ryrg7yBu5QJvZ9g4Jvm2j5B1WLiFhMqvgwAH/lNgKQ26ZGr4Fdn7P2tmN5TRzsYJ/ISCbciKGIfvjCHBh9Gk11xvjHXTGbZ8CzrfBLCM3N3xhWCCv0B/tMZmYsp3qmCZx8XYj/L0dgEwiR4ySez5uftArTimsN801ww8o8Pcj5sTKh janvite@yahoo.com"
     admin: yes
     in_scala: yes
     in_docker: yes
-    shell: /bin/zsh
+    shell: /bin/bash
   - username: peta
     uid: 1004
     name: peta

@@ -39,3 +39,11 @@ users:
     in_scala: yes
     in_docker: yes
     shell: /bin/bash
+  - username: jecmejan
+    uid: 1006
+    name: Jan Jecmen
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC7dzCa1xk9vuoIjic6/lFYjFp153fg6uby6apEPySGNo6ppVCHa7RtbJ3acd3qhbzbVTCpFLdjo6MldczXNYUWKw6YnczcuKSsP6tzOk3FmK4TRfWMqJNh8OkqV7MMA6ltChWboiqpIk05nM9ninb2aDR75LRlQ7mUl+TJcLOJWAIhvQlm4riJUWv0gA+T8EkL9fR2Rc/EFqPtXhskxIAyN6F14zn0Yq4ljzXMTTjpVP2YDAKUm87FbL+IaaxxkWVB1MG3fucv1j4gfhsyHaAENBkX4FwF6whA66jw37APAU5L8VWZ8naXhlB3mt3FI8g93nNm015dU+8xTzWoLHx2wrCIVk2Lxsx/9IyKF8KozFDOhTBUhUgDpOcfW//DauIAHoQRPWZeNe04CoFY8vm1lAj1AgjNwbK9OaZyCLuazQ45fmPovEbg4FCyBZj2tsYSyGOJJxZ/bMPdkS5067zNoYV2FCv44vnhcA2/WRuRQZNhnG4XYo/Vw5evScHTmVlakmb7PSspOIseGme/2lQavgmGyq9LWyXOk1IrtNaUNDEyIBe+aeJf0uPqcClXt0QBH9+1GnO+sR1QaEFQw9098TcLmIPuuc8fD0Vw7qPhfUnIQrpz1HSQBIYGVGn3IMqDqeOpwbvjJjRpX6gjVC2vd2zR82+XFQHRnDmJj819uQ== jan.jecmen@gmail.com"
+    admin: yes
+    in_scala: yes
+    in_docker: yes
+    shell: /bin/bash

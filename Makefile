@@ -1,3 +1,5 @@
+.PHONY: all prl3 prl4
+
 all:
 	ansible-playbook -i hosts site.yml
 
